@@ -46,6 +46,7 @@ puts "------------------------------"
 
 loop do
   client.update get_line("source.txt", $index)
-  set_index("index.txt", $index + 1)
+  $index += 1
+  set_index("index.txt", $index)
   sleep 30 * 60
 end
