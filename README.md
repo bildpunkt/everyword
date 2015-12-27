@@ -10,7 +10,6 @@ A everyword bot implementation written in Ruby!
 ## Prerequisites
 
 * Run `bundle install` to install the project dependencies.
-* Fill `source.txt` with the words you want to get posted.
 * Copy
   * `config.example.yml` to `config.yml` and add your application keys.
   * `source.example.txt` to `source.txt` and add your words.
